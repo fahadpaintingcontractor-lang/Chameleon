@@ -1,0 +1,287 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>A Little Surprise For You ❤️</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main id="app">
+
+         
+<section class="welcome-screen" id="welcome">
+
+    <div class="floating-hearts" id="hearts"></div>
+
+    <div class="welcome-content">
+
+        <p class="eyebrow">A LITTLE SOMETHING FOR YOU</p>
+
+        <h1>
+            Hello, <span>Chameleon.</span>
+        </h1>
+
+        <p class="welcome-message">
+            I made something special for you.
+            Because you deserve a little extra love today.
+        </p>
+
+        <div class="heart-icon">♥</div>
+
+        <button class="open-button" id="openSurprise">
+            Open Your Surprise
+            <span>♡</span>
+        </button>
+
+        <p class="small-note">Made with love, just for you.</p>
+
+    </div>
+
+</section>
+
+
+
+<section class="surprise-screen" id="surprise">
+
+    <div class="surprise-content">
+
+        <p class="eyebrow">HAPPY INTERNATIONAL MEN'S DAY</p>
+
+        <h2>You're someone <span>special.</span></h2>
+
+        <p>
+            And this little corner of the internet
+            is all about you.
+        </p>
+
+        <div class="question-card">
+
+            <p class="question-number">01 — A LITTLE QUESTION</p>
+
+            <h3>Do you know how special you are to me?</h3>
+
+            <div class="answer-buttons">
+
+                <button class="answer-btn" id="yesAnswer">
+                    Of course I do ♡
+                </button>
+
+                <button class="answer-btn" id="noAnswer">
+                    Nahi pata toh jan jaoge....
+                </button>
+
+            </div>
+
+            <p id="answerMessage"></p>
+            <button id="continueButton" class="open-button">
+                There's more for you →
+            </button>
+        </div>
+
+    </div>
+
+</section>
+
+
+<section class="memories-section" id="memories">
+ 
+    <div class="memories-content">
+
+        <p class="eyebrow">A LITTLE PIECE OF MY HEART</p>
+
+        <h2>Things I want you <span>to know.</span></h2>
+
+        <p class="section-description">
+            Some things are better said in little ways.
+            Tap each card, there's something for you.
+        </p>
+
+        <div class="memory-grid">
+
+            <div class="memory-card" onclick="revealMessage(this)">
+                <span class="card-heart">♡</span>
+                <h3>01</h3>
+                <p>Something about you</p>
+                <div class="hidden-message">
+                    You make ordinary moments feel special. ❤️
+                </div>
+            </div>
+
+            <div class="memory-card" onclick="revealMessage(this)">
+                <span class="card-heart">♡</span>
+                <h3>02</h3>
+                <p>A little reminder</p>
+                <div class="hidden-message">
+                    I hope you know how much you mean to me.
+                </div>
+            </div>
+
+            <div class="memory-card" onclick="revealMessage(this)">
+                <span class="card-heart">♡</span>
+                <h3>03</h3>
+                <p>One little wish</p>
+                <div class="hidden-message">
+                    I wish you happiness, success and everything your heart desires.
+                </div>
+            </div>
+
+        </div>
+        
+<div class="photo-gallery">
+
+    <p class="eyebrow">OUR LITTLE WORLD</p>
+
+    <h2>My favourite <span>memories.</span></h2>
+
+    <div class="photo-grid">
+
+        <div class="photo-card">
+            <img src="photos/photo1-converted.jpg" alt="Our memory">
+            <p>A moment I'll always keep ♡</p>
+        </div>
+
+        <div class="photo-card">
+            <img src="photos/photo2-converted.jpg" alt="Our memory">
+            <p>One of my favourites.</p>
+        </div>
+
+        <div class="photo-card">
+            <img src="photos/photo3.jpg" alt="Our memory">
+            <p>Just us. Just happiness.</p>
+        </div>
+
+        <div class="photo-card">
+            <img src="photos/photo4-converted.jpg" alt="Our memory">
+            <p>A little piece of forever.</p>
+        </div>
+
+    </div>
+
+</div>
+
+    </div>
+
+</section>
+
+
+<section class="letter-section" id="loveLetter">
+
+    <div class="letter-content">
+
+        <p class="eyebrow">SOMETHING FROM MY HEART</p>
+
+        <h2>A letter, <span>for you.</span></h2>
+
+        <p class="section-description">
+            I couldn't leave without writing you something.
+        </p>
+
+        <div class="envelope-container" id="envelope">
+
+            <div class="envelope">
+                <div class="envelope-flap"></div>
+                <div class="envelope-body"></div>
+                <div class="envelope-heart">♥</div>
+            </div>
+
+        </div>
+
+        <p class="envelope-hint" id="envelopeHint">
+            Tap the envelope to open your letter ♡
+        </p>
+
+        <div class="letter-paper" id="letterPaper">
+
+            <p class="letter-date">A LITTLE NOTE FOR YOU</p>
+
+            <h3>My favourite human,</h3>
+
+            <p>
+                I don't think you realise how much happiness
+                you bring into my life...Hehe Uhh does..
+            </p>
+
+            <p>
+                I may not always find the perfect words to
+                express everything, but I hope you never
+                doubt how special you are to me.
+            </p>
+
+            <p>
+                Wishing you endless happiness, success, strength,
+                peace and all the beautiful things life has
+                waiting for the most amazing man who inspire, protect, support & lead wid kindness.
+            </p>
+
+            <p>
+                Keep being you. That's one of my favourite
+                things about you.
+            </p>
+
+            <p class="letter-signature">
+               You matter. Your efforts aka time matter. Even your presence matters  lot Chameleon.... With all my love, ♡
+            </p>
+            
+            <button class="final-button" id="finalButton">
+               One last thing for you →
+            </button>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<section class="final-section" id="finalSurprise">
+
+    <div class="final-hearts" id="finalHearts"></div>
+
+    <div class="final-content">
+
+        <p class="eyebrow">AND FINALLY...</p>
+
+        <div class="final-heart">♥</div>
+
+        <h2>Happy Men's Day,<br>
+            <span>my favourite person.</span>
+        </h2>
+
+        <p class="final-message">
+            I hope life gives you a thousand reasons to smile.
+            I hope you achieve everything you've ever dreamed of.
+            And I hope you never forget how loved and appreciated
+            you are.
+        </p>
+
+        <p class="final-highlight">
+            Today is about celebrating you. 
+             Lovezzzz uhhh Chameleon.... ♡
+        </p>
+
+        <div class="final-divider">✦ &nbsp; ✦ &nbsp; ✦</div>
+
+        <p class="final-footer">
+            Made with love, just for you... 
+        </p>
+        <button class="replay-button" id="replayButton">
+            Relive this little surprise ↺
+        </button>
+
+    </div>
+
+</section>
+
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
